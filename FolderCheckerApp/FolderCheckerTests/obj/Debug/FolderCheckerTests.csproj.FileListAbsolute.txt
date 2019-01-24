@@ -1,0 +1,14 @@
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\obj\Debug\FolderCheckerTests.csprojAssemblyReference.cache
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\obj\Debug\FolderCheckerTests.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\bin\Debug\FolderCheckerTests.dll.config
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\bin\Debug\FolderCheckerTests.dll
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\bin\Debug\FolderCheckerTests.pdb
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\bin\Debug\FolderCheckerApp.exe
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\bin\Debug\nunit.framework.dll
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\bin\Debug\FolderCheckerApp.pdb
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\bin\Debug\FolderCheckerApp.exe.config
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\bin\Debug\nunit.framework.pdb
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\bin\Debug\nunit.framework.xml
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\obj\Debug\FolderCheckerTests.csproj.CopyComplete
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\obj\Debug\FolderCheckerTests.dll
+D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerTests\obj\Debug\FolderCheckerTests.pdb
