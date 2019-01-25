@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace IndexTypeFinderApp
+namespace FolderCheckerApp
 {
     public class FolderStructure
     {

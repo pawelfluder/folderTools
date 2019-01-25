@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IndexTypeFinderApp
+namespace FolderCheckerApp
 {
    public class ConsoleHelper
    {

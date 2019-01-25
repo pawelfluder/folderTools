@@ -1,13 +1,26 @@
 ﻿using System;
 
-namespace IndexTypeFinderApp
+namespace FolderCheckerApp
 {
     public enum IndexType
     {
         unknown,
         folder,
         folder2,
-        text
+        text,
+        pdf,
+        photos,
+        index_pdf,
+        reading,
+        video,
+        diary,
+        hard,
+        soft,
+        voice,
+        girls,
+        info,
+        meeting,
+        flat
     }
 
     //usage

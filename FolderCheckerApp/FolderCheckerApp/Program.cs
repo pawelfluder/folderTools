@@ -1,13 +1,19 @@
 ﻿using System;
 
-namespace IndexTypeFinderApp
+namespace FolderCheckerApp
 {
     class Program
     {
         static void Main(string[] args)
         {
+            //Skończyłem
+            //printPageView() jest niepotrzebnie w common, a w text usunałem dużo method i nie wyświetla - trzeba to już dobrze rozkminić
+
+
             //Przemyśleć strukturę i napisać testy dla klas
             //Napisać wyświetlanie problemów - odwrotność do rekursywności, dodanie parenta
+            //Opis typów do czego służą i jakie mają funkcje
+
             string publicHtmlPath = @"\xampp\htdocs\public_html";
             
             ConsoleHelper _consoleHelper = new ConsoleHelper();

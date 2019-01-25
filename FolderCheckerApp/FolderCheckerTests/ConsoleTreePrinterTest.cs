@@ -1,4 +1,4 @@
-﻿using IndexTypeFinderApp;
+﻿using FolderCheckerApp;
 using NUnit.Framework;
 
 namespace FolderCheckerTests

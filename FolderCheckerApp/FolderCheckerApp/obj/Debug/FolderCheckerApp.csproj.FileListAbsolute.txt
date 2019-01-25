@@ -5,3 +5,10 @@ D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerApp\obj\Debug\FolderCheckerA
 D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerApp\obj\Debug\FolderCheckerApp.csproj.CoreCompileInputs.cache
 D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerApp\obj\Debug\FolderCheckerApp.exe
 D:\xampp\htdocs\tools\FolderCheckerApp\FolderCheckerApp\obj\Debug\FolderCheckerApp.pdb
+D:\xampp\htdocs\folderTools\FolderCheckerApp\FolderCheckerApp\bin\Debug\FolderCheckerApp.exe.config
+D:\xampp\htdocs\folderTools\FolderCheckerApp\FolderCheckerApp\bin\Debug\FolderCheckerApp.exe
+D:\xampp\htdocs\folderTools\FolderCheckerApp\FolderCheckerApp\bin\Debug\FolderCheckerApp.pdb
+D:\xampp\htdocs\folderTools\FolderCheckerApp\FolderCheckerApp\obj\Debug\FolderCheckerApp.csprojAssemblyReference.cache
+D:\xampp\htdocs\folderTools\FolderCheckerApp\FolderCheckerApp\obj\Debug\FolderCheckerApp.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\folderTools\FolderCheckerApp\FolderCheckerApp\obj\Debug\FolderCheckerApp.exe
+D:\xampp\htdocs\folderTools\FolderCheckerApp\FolderCheckerApp\obj\Debug\FolderCheckerApp.pdb

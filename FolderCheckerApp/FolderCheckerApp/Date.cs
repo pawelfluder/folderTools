@@ -1,4 +1,4 @@
-﻿namespace IndexTypeFinderApp
+﻿namespace FolderCheckerApp
 {
     public class Date
     {

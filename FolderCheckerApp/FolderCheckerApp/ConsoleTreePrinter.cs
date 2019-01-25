@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace IndexTypeFinderApp
+namespace FolderCheckerApp
 {
     public class ConsoleTreePrinter
     {

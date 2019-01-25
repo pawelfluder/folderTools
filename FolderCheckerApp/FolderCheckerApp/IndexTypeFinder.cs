@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace IndexTypeFinderApp
+namespace FolderCheckerApp
 {
     public class IndexTypeFinder
     {
@@ -18,6 +18,8 @@ namespace IndexTypeFinderApp
             {
                 string typeName = GetType(path);
                 folderItem.AddTemporaryName(typeName);
+                if(typeName == "pdf")
+                { }
 
                 Enum.TryParse(typeName, out IndexType type);
                 

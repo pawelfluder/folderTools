@@ -52,7 +52,6 @@
     <Compile Include="IndexUpdater.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TypeProvider.cs" />
     <Compile Include="TypesContainer.cs" />
   </ItemGroup>
   <ItemGroup>
