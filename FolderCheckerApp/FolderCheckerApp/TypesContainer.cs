@@ -5,21 +5,20 @@ namespace FolderCheckerApp
     public enum IndexType
     {
         unknown,
-        folder,
-        folder2,
-        text,
-        pdf,
-        photos,
-        index_pdf,
-        reading,
-        video,
         diary,
-        hard,
-        soft,
-        voice,
+        folder,
+        folderForPdf,
         girls,
+        hard,
         info,
         meeting,
+        pdf,
+        photos,
+        reading,
+        soft,
+        text,
+        video,
+        voice,
         flat
     }
 

@@ -7,6 +7,16 @@ namespace FolderCheckerApp
 {
     public class IndexDateFinder
     {
+        private string rootPath;
+        private string itemsPath;
+
+        public IndexDateFinder(string rootPath)
+        {
+            this.rootPath = rootPath;
+            itemsPath = string.Concat(rootPath, @"\", "items");
+        }
+
+
         public void Find(FolderItem folderItem, string folderPath)
         {
             AddDateRecursively(folderItem, folderPath);
@@ -14,12 +24,15 @@ namespace FolderCheckerApp
 
         public void AddDateRecursively(FolderItem folderItem, string folderPath)
         {
-            Date date = Copmare(folderItem, folderPath);
-            folderItem.ChangeSourceDate(date);
-            foreach (var subFolderItem in folderItem.SubFolderItems)
+            if (folderPath.Contains(itemsPath) == false)
             {
-                string subFolderPath = string.Concat(folderPath, @"\", subFolderItem.Name);
-                AddDateRecursively(subFolderItem, subFolderPath);
+                Date date = Copmare(folderItem, folderPath);
+                folderItem.ChangeSourceDate(date);
+                foreach (var subFolderItem in folderItem.SubFolderItems)
+                {
+                    string subFolderPath = string.Concat(folderPath, @"\", subFolderItem.Name);
+                    AddDateRecursively(subFolderItem, subFolderPath);
+                }
             }
         }
 
@@ -32,7 +45,7 @@ namespace FolderCheckerApp
                 var typeName = type.ToString();
 
                 string folderPathForIndex = string.Concat(folderPath, @"\", "index.php");
-                string itemsPath = @"\xampp\htdocs\public_html\items";
+                string itemsPath = string.Concat(rootPath, @"\", "items");
                 string itemTypePath = string.Concat(itemsPath, @"\", typeName);
 
                 string[] lines = File.ReadAllLines(folderPathForIndex);

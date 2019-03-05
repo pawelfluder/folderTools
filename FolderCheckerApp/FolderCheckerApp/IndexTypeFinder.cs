@@ -7,6 +7,28 @@ namespace FolderCheckerApp
 {
     public class IndexTypeFinder
     {
+        private string rootPath;
+        private string itemsPath;
+        private string templatesPath;
+        private string testingPath;
+
+        public IndexTypeFinder(string rootPath)
+        {
+            this.rootPath = rootPath;
+            itemsPath = string.Concat(rootPath, @"\", "items");
+            templatesPath = string.Concat(rootPath, @"\", "templates");
+            testingPath = string.Concat(rootPath, @"\", "testing");
+        }
+
+        private bool ForbiddenPath(string path)
+        {
+            bool forbidden = path.Contains(itemsPath) ||
+                 path.Contains(templatesPath) ||
+                 path.Contains(testingPath);
+
+            return forbidden;
+        }
+
         public void Find(FolderItem folderItem, string path)
         {
             FindRecursively(folderItem, path);
@@ -14,20 +36,21 @@ namespace FolderCheckerApp
 
         private void FindRecursively(FolderItem folderItem, string path)
         {
-            if (CheckIfFolderExists(folderItem, path))
+            if (ForbiddenPath(path) == false)
             {
-                string typeName = GetType(path);
-                folderItem.AddTemporaryName(typeName);
-                if(typeName == "pdf")
-                { }
-
-                Enum.TryParse(typeName, out IndexType type);
-                
-                folderItem.ChangeType(type);
-                foreach (var subFolderItem in folderItem.SubFolderItems)
+                if (CheckIfFolderExists(folderItem, path))
                 {
-                    string subFolderPath = string.Concat(path, @"\", subFolderItem.Name);
-                    FindRecursively(subFolderItem, subFolderPath);
+                    string typeName = GetType(path);
+                    folderItem.AddTemporaryName(typeName);
+
+                    Enum.TryParse(typeName, out IndexType type);
+
+                    folderItem.ChangeType(type);
+                    foreach (var subFolderItem in folderItem.SubFolderItems)
+                    {
+                        string subFolderPath = string.Concat(path, @"\", subFolderItem.Name);
+                        FindRecursively(subFolderItem, subFolderPath);
+                    }
                 }
             }
         }
@@ -54,8 +77,7 @@ namespace FolderCheckerApp
 
                 foreach (string line in lines)
                 {
-                    if (line.Contains("$typeName = ") ||
-                        line.Contains("$typeOfIndex = "))
+                    if (Condition(line))
                     {
                         foundLines.Add(line);
                     }
@@ -72,6 +94,18 @@ namespace FolderCheckerApp
             }
 
             return string.Empty;
+        }
+
+        private bool Condition(string line)
+        {
+            if (line.Contains("$typeName = ") ||
+                line.Contains("$typeOfIndex = ") ||
+                line.Contains("define('TYPE',"))
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }
