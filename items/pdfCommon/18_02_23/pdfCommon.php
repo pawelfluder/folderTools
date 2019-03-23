@@ -2,8 +2,6 @@
 
 function Engine()
 {
-	CheckIfSaveBtnClicked();
-
 	echo
 "<html>
 <head>
@@ -52,42 +50,16 @@ function GetDownOrUpSetting()
 	return $upDownSetting;
 }
 
-function CheckIfSaveBtnClicked()
-{
-	$filePath = "lista.txt";
-	if (isset($_POST['przycisk1']))
-	{
-		if ($_POST['przycisk1'] == "zapis1"  ) 
-		{
-			$textToSave = GetTextToSave();
-			SaveContent($filePath, $textToSave);
-		}
-	}
-}
-
 function printPageView()
 {
-	//echo "printPageView()</br>";
-	echo "<form name='formularz1' method='post' action=''>
-		<table>
-			<tr>
-				<b><h2>"
-					.ReadFolderName()
-				."<h2></b>
-			</tr>
-			<tr>
-				<td style='vertical-align: top'>";
-					echo ReadFromFile();
-				echo"</td>
-			</tr>
-		</table>
-	</form>";
+	ReadPdfFile();
 }
 
-function ReadFromFile()
+function ReadPdfFile()
 {
 	$pdf = FindPdfFiles();
-	header("Location: $pdf");
+	echo "<iframe src=\"$pdf\" width=\"100%\" style=\"height:100%\"></iframe>";
+	//header("Location: $pdf");
 }
 
 function FindPdfFiles()
@@ -103,7 +75,7 @@ function FindPdfFiles()
 		{
 			$pdfs[$i] = $file;
 			echo "$pdfs[$i].</br>";
-			echo "$file.</br>";
+			//echo "$file.</br>";
 			$i++;
 		}
 	}
