@@ -85,7 +85,7 @@ function ReadGirlsFullNames()
 		$len = sizeof($name);
 		closedir($handle);
 		
-		sort($name);
+		rsort($name);
 		
 		$toPrint = "";
 		for ($i = 0; $i < $len; $i++){
