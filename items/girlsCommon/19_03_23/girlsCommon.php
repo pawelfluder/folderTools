@@ -74,7 +74,7 @@ function ReadGirlsFullNames()
 			{
 				$i++;
 				$girlFullName = ReadGirlFullName($nam0);				
-				$text = "<a href='$nam0'>$girlFullName</a>";
+				$text = "<a href='$nam0'>$nam0 $girlFullName</a>";
 				
 				$name[$i] = "$text</br>";
 
