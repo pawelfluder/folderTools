@@ -88,7 +88,8 @@ function ReadGirlsFullNames()
 		rsort($name);
 		
 		$toPrint = "";
-		for ($i = 0; $i < $len; $i++){
+		for ($i = 0; $i < $len; $i++)
+		{
 			$toPrint .= $name[$i];
 			$toPrint .= "\n";
 		}
