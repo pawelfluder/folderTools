@@ -106,4 +106,10 @@ function IsHiddenFileOrFolder($path)
 	return substr($path, 0, 1) == ".";
 }
 
+function IsTwoDigitFolder($file)
+{
+	$result = is_numeric($file);
+	return $result;
+}
+
 ?>

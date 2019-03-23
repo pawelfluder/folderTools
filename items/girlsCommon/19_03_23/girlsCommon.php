@@ -69,7 +69,8 @@ function ReadGirlsFullNames()
 			if(IsCurrentDirectoryPointer($nam0) == false &&
 				IsCurrentDirectoryPointer($nam0) == false &&
 				IsPreviousDirectoryPointer($nam0) == false &&
-				IsHiddenFileOrFolder($nam0) == false)
+				IsHiddenFileOrFolder($nam0) == false &&
+				IsTwoDigitFolder($nam0))
 			{
 				$i++;
 				$girlFullName = ReadGirlFullName($nam0);				
@@ -145,7 +146,7 @@ function ReadGirlFullName($folder)
 		//$result = $Data.$U.$Imie.$U.$Nazwisko.$U.$Numer;
 		$result = $Data.$Imie.$Nazwisko.$Numer;
 
-		If($result == $U.$U.$U)
+		If($result == $U.$U.$U || $result == "")
 		{
 			$result = "Uzupelnij Info";
 		}
@@ -154,7 +155,7 @@ function ReadGirlFullName($folder)
 	}
 
 	//should be global var
-	$E = "error";
+	$E = "Nie ma pliku Info";
 	return $E;
 }
 
