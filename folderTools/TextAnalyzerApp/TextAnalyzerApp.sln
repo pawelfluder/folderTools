@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzerApp", "TextAnalyzerApp\TextAnalyzerApp.csproj", "{951C6A19-30DC-447A-AF90-613589548590}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzerTests", "TextAnalyzerTests\TextAnalyzerTests.csproj", "{E31873DD-33DA-474F-BCC1-D54A66AA0437}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{951C6A19-30DC-447A-AF90-613589548590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{951C6A19-30DC-447A-AF90-613589548590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{951C6A19-30DC-447A-AF90-613589548590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31873DD-33DA-474F-BCC1-D54A66AA0437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31873DD-33DA-474F-BCC1-D54A66AA0437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31873DD-33DA-474F-BCC1-D54A66AA0437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31873DD-33DA-474F-BCC1-D54A66AA0437}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

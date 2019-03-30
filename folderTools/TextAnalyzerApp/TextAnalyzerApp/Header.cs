@@ -34,7 +34,7 @@ namespace TextAnalyzerApp
       {
          Name = name;
          SubHeaders = new List<Header>();
-         Content = new List<string>();
+         Content = new List<string>(content);
       }
 
       public void AddSubHeaders(List<Header> subHeaders)

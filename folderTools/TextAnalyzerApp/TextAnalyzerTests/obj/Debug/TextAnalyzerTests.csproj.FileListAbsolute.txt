@@ -1,0 +1,14 @@
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Debug\TextAnalyzerTests.csprojAssemblyReference.cache
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Debug\TextAnalyzerTests.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\TextAnalyzerTests.exe.config
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\TextAnalyzerTests.exe
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\TextAnalyzerTests.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\nunit.framework.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\TextAnalyzerApp.exe
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\TextAnalyzerApp.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\TextAnalyzerApp.exe.config
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\nunit.framework.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\nunit.framework.xml
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Debug\TextAnalyzerTests.csproj.CopyComplete
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Debug\TextAnalyzerTests.exe
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Debug\TextAnalyzerTests.pdb
