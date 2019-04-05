@@ -46,19 +46,23 @@ namespace TextAnalyzerApp
          List<Header> subHeaders = new List<Header>();
          headersNumbers.Add(lines.Length);
 
-         var previousHeaderNumer = headersNumbers.ElementAt(0);
-
             foreach (var headerNumber in headersNumbers.Skip(1))
             {
+                var previousHeaderNumer = headersNumbers[headersNumbers.IndexOf(headerNumber) - 1];
+
                string name = CorrectHeaderName(lines[previousHeaderNumer]);
                int oneAfterHeaderLineNumber = previousHeaderNumer + 1;
                int numberOfContentLines = headerNumber - oneAfterHeaderLineNumber;
 
                var content = GetContent(lines, oneAfterHeaderLineNumber, numberOfContentLines);
 
-               Header subHeader = new Header(name, content);
-               subHeaders.Add(subHeader);
-         }
+                if (content.Count() != 0 && 
+                    !(content.Count() == 1 && content[0] == string.Empty))
+                {
+                    Header subHeader = new Header(name, content);
+                    subHeaders.Add(subHeader);
+                }
+            }
 
          return subHeaders;
       }
