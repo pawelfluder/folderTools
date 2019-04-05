@@ -25,20 +25,13 @@ namespace TextAnalyzerTests
                "Are we collected?",
             }),
          };
-         var result = headers2.SequenceEqual(headers);
-         var a = headers2.All(headers.Contains) && headers2.Count == headers.Count;
-         //var result2 = headers2.
-
-
-         //Assert.AreEqual(headers2, headers);
+         
+         Assert.AreEqual(headers2, headers);
 
          //HeadersAreEqual(headers2, headers);
-      }
-
-      private void HeadersAreEqual(List<Header> headers2, List<Header> headers)
-      {
-         
-      }
+         //var result = headers2.SequenceEqual(headers);
+         //var a = headers2.All(headers.Contains) && headers2.Count == headers.Count;
+        }
 
       private string[] GetTextFileLines01()
       {
