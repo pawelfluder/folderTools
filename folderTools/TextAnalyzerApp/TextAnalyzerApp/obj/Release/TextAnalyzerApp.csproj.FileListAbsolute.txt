@@ -1,0 +1,10 @@
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerApp\bin\Release\TextAnalyzerApp.dll.config
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerApp\bin\Release\TextAnalyzerApp.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerApp\bin\Release\TextAnalyzerApp.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerApp\obj\Release\TextAnalyzerApp.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerApp\obj\Release\TextAnalyzerApp.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerApp\obj\Release\TextAnalyzerApp.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerApp\bin\Release\ExtensionsLibrary.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerApp\bin\Release\ExtensionsLibrary.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerApp\obj\Release\TextAnalyzerApp.csprojAssemblyReference.cache
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerApp\obj\Release\TextAnalyzerApp.csproj.CopyComplete

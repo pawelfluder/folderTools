@@ -61,6 +61,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ExtensionsLibrary\ExtensionsLibrary.csproj">
+      <Project>{35b4f627-c894-4b2b-a75e-fe91b75e3f27}</Project>
+      <Name>ExtensionsLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TextAnalyzerApp\TextAnalyzerApp.csproj">
       <Project>{951c6a19-30dc-447a-af90-613589548590}</Project>
       <Name>TextAnalyzerApp</Name>

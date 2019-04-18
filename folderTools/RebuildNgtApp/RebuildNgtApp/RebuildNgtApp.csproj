@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="CmdExecutor.cs" />
     <Compile Include="CommandResult.cs" />
+    <Compile Include="ProcessStartInfoExtensions.cs" />
     <Compile Include="GeneralExecutor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

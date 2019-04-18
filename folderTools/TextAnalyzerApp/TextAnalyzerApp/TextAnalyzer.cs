@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
+using ExtensionsLibrary;
 
 namespace TextAnalyzerApp
 {
@@ -56,6 +57,8 @@ namespace TextAnalyzerApp
 
                var content = GetContent(lines, oneAfterHeaderLineNumber, numberOfContentLines);
 
+                content = RemoveEmptyLinesFromEnd(content);
+
                 if (content.Count() != 0 && 
                     !(content.Count() == 1 && content[0] == string.Empty))
                 {
@@ -67,7 +70,20 @@ namespace TextAnalyzerApp
          return subHeaders;
       }
 
-      private List<string> GetContent(string[] lines, int oneAfterHeaderLineNumber, int numberOfContentLines)
+       private List<string> RemoveEmptyLinesFromEnd(List<string> content)
+       {
+           for (int i = content.Count - 1; i > 0; i--)
+           {
+               if (content[i] == String.Empty)
+               {
+                   content.Remove(content[i]);
+               }
+           }
+
+           return content;
+       }
+
+       private List<string> GetContent(string[] lines, int oneAfterHeaderLineNumber, int numberOfContentLines)
       {
          var content = lines.SubArray(oneAfterHeaderLineNumber, numberOfContentLines).ToList();
          var correctedContent = CorrectContent(content);

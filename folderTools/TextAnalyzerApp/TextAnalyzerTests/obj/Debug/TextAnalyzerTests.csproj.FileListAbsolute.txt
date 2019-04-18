@@ -12,3 +12,5 @@ D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\TextAnal
 D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\TextAnalyzerApp.dll
 D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\TextAnalyzerApp.dll.config
 D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Debug\TextAnalyzerTests.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\ExtensionsLibrary.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Debug\ExtensionsLibrary.pdb

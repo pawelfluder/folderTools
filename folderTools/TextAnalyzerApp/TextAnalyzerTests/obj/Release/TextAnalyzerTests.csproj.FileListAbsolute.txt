@@ -1,0 +1,16 @@
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\TextAnalyzerTests.dll.config
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\TextAnalyzerTests.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\TextAnalyzerTests.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\nunit.framework.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\TextAnalyzerApp.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\TextAnalyzerApp.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\TextAnalyzerApp.dll.config
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\nunit.framework.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\nunit.framework.xml
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Release\TextAnalyzerTests.csprojAssemblyReference.cache
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Release\TextAnalyzerTests.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Release\TextAnalyzerTests.csproj.CopyComplete
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Release\TextAnalyzerTests.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\obj\Release\TextAnalyzerTests.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\ExtensionsLibrary.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\TextAnalyzerTests\bin\Release\ExtensionsLibrary.pdb

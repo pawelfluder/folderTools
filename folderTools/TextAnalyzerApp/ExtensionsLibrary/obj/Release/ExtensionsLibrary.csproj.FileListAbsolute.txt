@@ -1,0 +1,5 @@
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\ExtensionsLibrary\bin\Release\ExtensionsLibrary.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\ExtensionsLibrary\bin\Release\ExtensionsLibrary.pdb
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\ExtensionsLibrary\obj\Release\ExtensionsLibrary.csproj.CoreCompileInputs.cache
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\ExtensionsLibrary\obj\Release\ExtensionsLibrary.dll
+D:\xampp\htdocs\folderTools\TextAnalyzerApp\ExtensionsLibrary\obj\Release\ExtensionsLibrary.pdb

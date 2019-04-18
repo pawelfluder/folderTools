@@ -63,14 +63,14 @@ namespace TextAnalyzerTests
                {
                    "rebuildplugin",
                }),
-               new Header("tittle", new List<string>()
+               new Header("delete plugin folders and packages", new List<string>()
                {
                    "rmdir /s /Q \"D:\\git\\NGT_Source\\Source\\PluginReferenceImpl\\IEDPlugin\\.vs\"",
                    "rmdir /s /Q \"D:\\GIT\\NGT_Source\\Source\\PluginReferenceImpl\\IEDPlugin\\bin\"",
                    "cd /d \"D:\\GIT\\NGT_Source\\Source\\PluginReferenceImpl\\IEDPlugin",
                    "CleanupPackages",
                }),
-               new Header("tittle", new List<string>()
+               new Header("restore plugin nuget packages", new List<string>()
                {
                    "D:\\UseFullFiles\\nuget.exe restore",
                    "rmdir /s /Q \"D:\\GIT\\NGT_Source\\Source\\PluginReferenceImpl\\IEDPlugin\\bin\"",

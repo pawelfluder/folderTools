@@ -14,6 +14,6 @@
 //restore plugin nuget packages
 	D:\UseFullFiles\nuget.exe restore D:\GIT\NGT_Source\Source\PluginReferenceImpl\IEDPlugin\IedPluginReferenceImpl.sln
 	
-//rebuild plugin solution
+//rebuild plugin solution	 
 	MSBuild "D:\GIT\NGT_Source\Source\PluginReferenceImpl\IEDPlugin\IedPluginReferenceImpl.sln" /P:Configuration=Debug
 	

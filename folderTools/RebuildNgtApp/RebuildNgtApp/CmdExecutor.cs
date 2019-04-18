@@ -27,25 +27,17 @@ namespace RebuildNgtApp
                      {
                          FileName = appName,
                          Arguments = arguments,
-                         RedirectStandardOutput = true,
-                         RedirectStandardInput = true,
-                        RedirectStandardError = true,
-                         UseShellExecute = false,
-                         WorkingDirectory = @"d:\",
                      };
-                    p.StartInfo.CreateNoWindow = true;
-                    p.StartInfo.UseShellExecute = false;
-                    p.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
 
+                    //p.ApplyNoWindowConfig(p_OutputDataReceived);
+                     p.ApplyVisibleWindowConfig();
 
-               // event handlers for output & error
-               p.OutputDataReceived += p_OutputDataReceived;
-                     
+                    // start process
+                    p.Start();
 
-                     // start process
-                     p.Start();
-
-                     p.StandardInput.Write(command + p.StandardInput.NewLine);
+                     p.StandardInput.Write("%comspec% /k \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\Common7\\Tools\\VsDevCmd.bat\"" + p.StandardInput.NewLine);
+                     p.WaitForExit(100);
+                    p.StandardInput.Write(command + p.StandardInput.NewLine);
 
                      p.BeginOutputReadLine();
                      p.WaitForExit(100);
@@ -53,11 +45,22 @@ namespace RebuildNgtApp
                        commandResult.Output = Output.ToString();
                     
                     p.StandardInput.Write("exit" + p.StandardInput.NewLine);
+                     p.StandardInput.Write("exit" + p.StandardInput.NewLine);
+
                     p.WaitForExit(100);
                     if (p.HasExited)
                     {
                        commandResult.ExitCode = p.ExitCode;
-                     }
+                    }
+                    else
+                    {
+                        while (!p.HasExited)
+                        {
+                            p.WaitForExit(5000);
+                            p.StandardInput.Write("exit" + p.StandardInput.NewLine);
+                            p.StandardInput.Write("exit" + p.StandardInput.NewLine);
+                        }
+                    }
                }
             }
             catch (Exception ex)
@@ -65,7 +68,7 @@ namespace RebuildNgtApp
                 Console.WriteLine(ex);
             }
 
-           ProcessOutput(ref commandResult, command);
+           //ProcessOutput(ref commandResult, command);
            
 
 
